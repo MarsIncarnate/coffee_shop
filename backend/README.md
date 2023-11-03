@@ -10,7 +10,7 @@ Follow instructions to install the latest version of python for your platform in
 
 #### Virtual Environment
 
-We recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organized. Instructions for setting up a virtual environment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+I recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organized. Instructions for setting up a virtual environment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 #### PIP Dependencies
 
@@ -79,9 +79,3 @@ The `--reload` flag will detect file changes and restart the server automaticall
    - Run the collection and correct any errors.
    - Export the collection overwriting the one we've included so that we have your proper JWTs during review!
 
-### Implement The Server
-
-There are `@TODO` comments throughout the `./backend/src`. We recommend tackling the files in order and from top to bottom:
-
-1. `./src/auth/auth.py`
-2. `./src/api.py`
